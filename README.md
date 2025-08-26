@@ -22,7 +22,7 @@ quả.
 -   **Kết nối thiết bị IoT**: Hỗ trợ nhiều loại cảm biến và bộ truyền
     tín hiệu. 
 -   **Truyền dữ liệu qua mạng**: Sử dụng giao thức MQTT/HTTP. 
--   **Lưu trữ dữ liệu trên cloud**: Cho phép quản lý và phân tích dữ
+-   **Lưu trữ dữ liệu trên server CoreIOT**: Cho phép quản lý và phân tích dữ
     liệu tập trung. 
 -   **Ứng dụng giám sát**: Hiển thị dữ liệu trực quan qua dashboard
     CoreIOT Platform. 
@@ -34,8 +34,8 @@ quả.
 ## 🏗️ Kiến trúc hệ thống
 1. **Thiết bị cảm biến**: Thu thập thông tin từ môi trường (nhiệt độ, độ
 ẩm, ánh sáng, v.v.). 
-2. **Gateway**: Xử lý sơ bộ và gửi dữ liệu lên server/cloud. 
-3. **Cloud Server**: Lưu trữ, phân tích và chạy thuật toán. 
+2. **Gateway**: Xử lý sơ bộ và gửi dữ liệu lên server/. 
+3. ** Server**: Lưu trữ, phân tích và chạy thuật toán. 
 4. **Ứng dụng người dùng**: Giao diện hiển thị dữ liệu và cho phép điều
 khiển từ xa.
 
@@ -86,7 +86,7 @@ hướng tới một nền nông nghiệp hiện đại và bền vững hơn.
     -   PlatformIO IDE 
     -   MQTT broker (Eclipse Mosquitto) 
 -   **Dashboard**: [CoreIOT Platform](https://coreiot.io/) 
--   **Cloud/Server**: AWS IoT, Google Cloud IoT Core hoặc server riêng.
+-   **/Server**: AWS IoT, Google  IoT Core hoặc server riêng.
 
 ------------------------------------------------------------------------
 
@@ -107,7 +107,7 @@ hướng tới một nền nông nghiệp hiện đại và bền vững hơn.
 3.  **Cấu hình kết nối**
 
     -   Chỉnh sửa file `config.json` để khai báo thông tin MQTT broker
-        và cloud server.
+        và  server.
 
 4.  **Chạy hệ thống**
 
@@ -122,3 +122,4 @@ hướng tới một nền nông nghiệp hiện đại và bền vững hơn.
 -   Tích hợp AI để phân tích dữ liệu cảm biến. 
 -   Bổ sung tính năng bảo mật nâng cao. 
 -   Tối ưu giao diện người dùng (UI/UX).
+
