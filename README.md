@@ -34,7 +34,7 @@ quả.
 ## 🏗️ Kiến trúc hệ thống
 1. **Thiết bị cảm biến**: Thu thập thông tin từ môi trường (nhiệt độ, độ
 ẩm, ánh sáng, v.v.). 
-2. **Gateway**: Xử lý sơ bộ và gửi dữ liệu lên server/. 
+2. **Gateway**: Xử lý sơ bộ và gửi dữ liệu lên server. 
 3. **Server**: Lưu trữ, phân tích và chạy thuật toán. 
 4. **Ứng dụng người dùng**: Giao diện hiển thị dữ liệu và cho phép điều
 khiển từ xa.
@@ -122,5 +122,6 @@ hướng tới một nền nông nghiệp hiện đại và bền vững hơn.
 -   Tích hợp AI để phân tích dữ liệu cảm biến. 
 -   Bổ sung tính năng bảo mật nâng cao. 
 -   Tối ưu giao diện người dùng (UI/UX).
+
 
 
