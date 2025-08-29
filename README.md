@@ -21,7 +21,7 @@ quả.
 
 -   **Kết nối thiết bị IoT**: Hỗ trợ nhiều loại cảm biến và bộ truyền
     tín hiệu. 
--   **Truyền dữ liệu qua mạng**: Sử dụng giao thức MQTT/HTTP. 
+-   **Truyền dữ liệu qua mạng**: Sử dụng giao thức MQTT. 
 -   **Lưu trữ dữ liệu trên server CoreIOT**: Cho phép quản lý và phân tích dữ
     liệu tập trung. 
 -   **Ứng dụng giám sát**: Hiển thị dữ liệu trực quan qua dashboard
@@ -122,6 +122,7 @@ hướng tới một nền nông nghiệp hiện đại và bền vững hơn.
 -   Tích hợp AI để phân tích dữ liệu cảm biến. 
 -   Bổ sung tính năng bảo mật nâng cao. 
 -   Tối ưu giao diện người dùng (UI/UX).
+
 
 
 
